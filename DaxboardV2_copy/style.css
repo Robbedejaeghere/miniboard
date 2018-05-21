@@ -1,0 +1,91 @@
+body{
+    background-color: #e5e5e6;
+}
+h1{
+    text-decoration: none;
+    color: 	#cc2e41;
+    text-align: center;
+    font-size: 40px;
+    border: 5px solid 	#0F9CE4;
+    border-radius: 10px;
+    background: linear-gradient(#D5E2EB, #efefef);
+}
+#titel{
+    text-decoration: none;
+    color: 	#cc2e41;
+}
+#logout{
+    text-align: right;
+}
+h2{
+    color: 	#cc2e41;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+#main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+#lijst{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border: 5px solid #0F9CE4;
+    border-radius: 10px;
+    background: linear-gradient(#D5E2EB, #efefef);
+    padding: 10px;
+}
+#lijst a {
+    text-decoration: none;
+    margin: 0;
+    color: #7799bb;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 0 2px;
+    text-transform: uppercase;
+
+}
+#lijst p{
+    margin: 0;
+    padding: 2px 0 5px 25px;
+    margin-bottom: 5px;
+    border-bottom: 1px dotted #555555;
+}
+input[type=text], input[type=password], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #cc2e41;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+#label{
+    color: #7799bb;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+@media screen and (max-width: 600px) {
+    #main{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding: 3px;
+    }
+}
